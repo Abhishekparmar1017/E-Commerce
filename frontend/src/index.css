@@ -1,0 +1,76 @@
+body{
+    font-family: "poppins";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar  css */
+.navbar{
+    font-size: 17px;
+    line-height: 28px;
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -6px gray;
+    --webkit-box-shadow: 0 8px 6px -6px gray;
+    border-bottom: 0.5px solid gray !important;
+   
+}
+.nav-link{
+    font-weight: 300 !important;
+}
+.active{
+    border-bottom: 2px solid black;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-family: "roboto",sans-serif;
+    letter-spacing: 3px;
+}
+/* footer */
+.footer{
+    color: white;
+    padding: 25px;
+    background: #1D4350;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #31a454, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #31a454, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(4, 12, 14);
+    padding: 10px;
+}
+.footer a:hover{
+    color: rgb(87, 192, 45);
+}
+
+/* page is note found */
+.pnf{
+    display: flex;
+    min-height: 65vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pnf-title{
+    font-size: 100px;
+    font-weight: 700;
+}
+.pnf-heading{
+    font-weight: normal;
+}
+.pnf-btn{
+    color: rgb(68, 27, 27);
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* ====================== */
+.product-link{
+    text-decoration: none !important;
+    color: black !important;
+}
+
